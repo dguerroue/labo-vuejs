@@ -1,9 +1,6 @@
 @import './variables';
+@import './helpers';
 
-// Bootstrap
-@import "./twbootstrap";
-
-
-@import './typography';
+@import './content';
 @import './layout';
-@import './uikit';
+@import './components';

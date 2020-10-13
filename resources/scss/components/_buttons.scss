@@ -54,7 +54,7 @@
   width: 18px;
   height: 18px;
   color: #fff;
-  background-color: $color-bg;
+  background-color: $color-vuejs;
   border-radius: 50%;
   transition: 0.3s ease-in-out all;
 }
@@ -63,5 +63,5 @@
 {
   content: '';
   left: 28px;
-  background-color: $color-bg;
+  background-color: $color-vuejs;
 }

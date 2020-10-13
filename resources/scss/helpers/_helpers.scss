@@ -1,0 +1,19 @@
+/**
+  * @desc get font size
+  * @info sizes map declared in variables.scss
+  * @return {rem}
+*/
+@function font($size: 'base') {
+  @return map-get($font-sizes, $size);
+}
+
+@for $index from 0 to 15 {
+  [data-z="#{$index}"] {
+    z-index: $index * 10;
+  }
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}

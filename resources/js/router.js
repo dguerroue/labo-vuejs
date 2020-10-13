@@ -8,17 +8,18 @@ import About from '../views/pages/about.vue'
 const routes = [
   {
     path: '/',
+    name: 'Home',
     component: Home,
     meta: {
       title: 'LAB - Accueil',
-      name: 'Home'
     }
   },
   {
     path: '/about',
+    name: 'About',
     component: About,
     meta: {
-      title: 'LAB - à propos'
+      title: 'LAB - à propos',
     }
   }
 ]

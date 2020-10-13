@@ -1,19 +1,8 @@
 <template>
   <div>
-    <div class="row">
-      <div class="col">
-        <h1>{{title}}</h1>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-12 col-lg-4">
-        <img src="img/placeholder-image.jpg" class="img-fluid" alt="">
-      </div>
-      <div class="col-12 col-lg-8">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi numquam magni dolorem corporis nulla est accusamus mollitia repellendus reiciendis eos autem magnam, ex atque itaque illo ad ipsam? Molestiae, fugit!</p>
-      </div>
-    </div>
+    <h1>{{title}} <i class="icon icon-arrow"></i></h1>
+    <img src="img/placeholder-image.jpg" class="img-fluid" alt="">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi numquam magni dolorem corporis nulla est accusamus mollitia repellendus reiciendis eos autem magnam, ex atque itaque illo ad ipsam? Molestiae, fugit!</p>
   </div>
 </template>
 

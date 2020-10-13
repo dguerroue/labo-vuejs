@@ -2,19 +2,30 @@
 //
 $color-vuejs: #41B883;
 
-
 // COLORS
 //
 $color-primary: #0994af;
 
-$color-bg: #0277BD;
-$color-bg-gradient-from: #13547a;
-$color-bg-gradient-to: #00acc1;
-
-$color-cloak-bg: #13547a;
-$color-cloak-pointer: #f44336;
-
 // FONTS
 //
 $font-body: 'Open Sans', sans-serif;
+
+// overload icon-font-plugin
+// $icon-common-class: 'icon';
+$icon-prefix: 'icon-';
+$create-font-face: false;
+
+// font sizes by tailwindscss
+$font-sizes: (
+  "xs":   0.750rem,
+  "sm":   0.875rem,
+  "base": 1.000rem,
+  "lg":   1.125rem,
+  "xl":   1.250rem,
+  "2xl":  1.500rem,
+  "3xl":  1.875rem,
+  "4xl":  2.250rem,
+  "5xl":  3.000rem,
+  "6xl":  4.000rem
+);
 
