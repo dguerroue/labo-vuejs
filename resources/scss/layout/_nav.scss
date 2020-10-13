@@ -1,0 +1,45 @@
+nav.navbar {
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .nav-item {
+    position: relative;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 9px;
+      height: 9px;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%) scale(0);
+      background-color: black;
+      border-radius: 50%;
+      opacity: 0;
+      transition: transform 0.3s, opacity 0.3s;
+    }
+    &:hover {
+      &::after {
+        transform: translateX(-50%) scale(0.5);
+        opacity: 1;
+      }
+    }
+    &.active {
+      &::after {
+        transform: translateX(-50%) scale(1);
+        opacity: 1;
+      }
+    }
+
+    .nav-link {
+      display: block;
+      padding: 1rem 1.5rem;
+      color: black;
+    }
+  }
+}
