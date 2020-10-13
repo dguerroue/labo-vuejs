@@ -1,6 +1,11 @@
 # Webpack compiler Labo
 A light starter Webpack for little ( or big ?) project
 
+## Clone without .git
+```
+git clone git@github.com:dguerroue/labo-vuejs.git <project_name> && rm -rf <project_name>/.git && cd <project_name>
+```
+
 ### Installation
 
 ```
