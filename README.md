@@ -1,6 +1,5 @@
-# Webpack Frontend Starterkit
-
-A light starter Webpack for little project
+# Webpack compiler Labo
+A light starter Webpack for little ( or big ?) project
 
 ### Installation
 
@@ -24,6 +23,5 @@ yarn build
 
 * ES6 Support via [babel](https://babeljs.io/) (v7)
 * SASS Support via [sass-loader](https://github.com/jtangelder/sass-loader)
-- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/)
 - [vueJS](https://vuejs.org/v2/guide/)
 - [vue-router](https://router.vuejs.org/guide/)
