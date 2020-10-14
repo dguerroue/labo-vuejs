@@ -1,9 +1,9 @@
 <template>
-  <nav class="navbar">
+  <nav class="navbar shadow-sm">
       <!-- menu links -->
       <ul>
-        <li v-for="(route, index) in routes" :key="index">
-          <router-link :to="route.path">{{route.name || route.path}}</router-link>
+        <li v-for="(route, index) in routes" :key="index" class="nav-item">
+          <router-link :to="route.path" class="nav-link">{{route.name || route.path}}</router-link>
         </li>
       </ul>
   </nav>
@@ -19,3 +19,6 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+</style>

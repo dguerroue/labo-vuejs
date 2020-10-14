@@ -7,9 +7,10 @@
   @return map-get($font-sizes, $size);
 }
 
-@for $index from 0 to 15 {
-  [data-z="#{$index}"] {
-    z-index: $index * 10;
+// generate shadow-sizes classes
+@each $size, $shadow in $shadow-sizes {
+  .shadow-#{$size} {
+    box-shadow: $shadow;
   }
 }
 
