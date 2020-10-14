@@ -2,8 +2,8 @@ import VueRouter from "vue-router"
 
 // VIEWS
 //
-import Home from '../views/pages/home.vue'
-import About from '../views/pages/about.vue'
+import Home from '_resources/views/pages/home.vue'
+import About from '_resources/views/pages/about.vue'
 
 const routes = [
   {

@@ -1,6 +1,6 @@
 // STYLES
 //
-import '../scss/index.scss'
+import '_resources/scss/index.scss'
 
 // MODULES
 //
@@ -11,7 +11,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import router from './router'
-import App from '~/views/App.vue'
+import App from '_resources/views/App.vue'
 
 Vue.use(VueRouter)
 

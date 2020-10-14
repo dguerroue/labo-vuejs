@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '../../scss/variables';
+  @import '_resources/scss/variables';
 
 
   .tide-info {

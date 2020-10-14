@@ -5,6 +5,7 @@ const HtmlWebpackPlugin       = require('html-webpack-plugin');
 const VueLoaderPlugin         = require('vue-loader/lib/plugin');
 const IconfontPlugin          = require('iconfont-plugin-webpack');
 const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: {
@@ -15,9 +16,10 @@ module.exports = {
     filename: 'js/[name].[hash].js'
   },
   resolve: {
-    // extensions: ['.scss', '.css', '.js', '.json', '.vue'],
+    extensions: ['.scss', '.css', '.js', '.json', '.vue'],
     alias: {
-      '~': '../'
+      _public: path.resolve(__dirname, '../public/'),
+      _resources: path.resolve(__dirname, '../resources/')
     }
   },
   plugins: [
